@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<router>
+	<controller-package>com.urix.controller</controller-package>
+</router>

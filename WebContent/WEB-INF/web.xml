@@ -4,16 +4,10 @@
   
   	<servlet>
 		<servlet-name>Router</servlet-name>
-		<servlet-class>com.servlet.RouterServlet</servlet-class>
+		<servlet-class>com.urix.servlet.RouterServlet</servlet-class>
  	</servlet>
 	<servlet-mapping>
 		<servlet-name>Router</servlet-name>
 		<url-pattern>/app/*</url-pattern>
 	</servlet-mapping>
-	
-	
-	<error-page>
-   		<error-code>404</error-code>
-   		<location>/app/User/add</location>
-	</error-page>
 </web-app>

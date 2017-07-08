@@ -1,0 +1,32 @@
+<taglib>
+	<tlib-version>1.0</tlib-version>
+	<jsp-version>2.0</jsp-version>
+	<short-name>url-tag</short-name>
+	
+	<tag>
+		<name>url</name>
+		<tag-class>com.urix.jspTag.Url</tag-class>
+		<body-content>scriptless</body-content>
+		
+		<attribute>
+			<name>controller</name>
+			<required>true</required>
+			<type>java.util.String</type>
+			<fragment>false</fragment>
+		</attribute>
+		
+		<attribute>
+			<name>parameter</name>
+			<required>false</required>
+			<type>java.util.String[]</type>
+			<fragment>true</fragment>
+		</attribute>
+		
+		<attribute>
+			<name>route</name>
+			<required>true</required>
+			<type>java.util.String</type>
+			<fragment>false</fragment>
+		</attribute>
+	</tag>
+</taglib>
